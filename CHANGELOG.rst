@@ -23,6 +23,9 @@ Breaking API changes:
    that contains each package instace that can be aggregating data from
    multiple manifests for a single package instance.
 
+ - The data structure for HTML output has been changed to include emails and urls under the 
+   "infos" object. Now HTML template will output holders, authors, emails, and 
+   urls into separate tables like "licenses" and "copyrights".
 
 v21.6.2
 --------
